@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://MoeMadadi.github.io/al-folio/sitemap.xml
+Sitemap: https://MoeMadadi.github.io/sitemap.xml
