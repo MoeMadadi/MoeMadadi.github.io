@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Research Assistant @ HKU | Embodied AI & Robotics
 
 profile:
   align: right
@@ -29,10 +29,10 @@ latest_posts:
 
 I am a Research Assistant at the [Agentic Intelligence Lab](https://agentic-intelligence-lab.org/) at the University of Hong Kong (HKU), supervised by [Prof. Jiayu Chen](https://agentic-intelligence-lab.org/members/jiayu-chen.html). My current research focuses on **Embodied AI** and **Continual Reinforcement Learning** for Humanoid Robotic Control.
 
-Prior to joining HKU, I obtained my B.Sc. in Mechanical Engineering from **Sharif University of Technology** in Tehran, Iran, where I graduated with a high distinction (GPA: 17.66/20). During my undergraduate studies, I worked as a Research Assistant in the Mechatronics Lab and the Spine Biomechanics Lab, gaining extensive experience in:
+Prior to joining HKU, I obtained my B.Sc. in Mechanical Engineering from **Sharif University of Technology** in Tehran, Iran, where I graduated with a high distinction (GPA: 17.66/20). During my undergraduate studies, I worked as a Research Assistant in the Mechatronics Lab and the Spine Biomechanics Lab, gaining experience in:
 
 * **Deep Reinforcement Learning** (Motion Planning for Robotic Systems)
 * **Robotics & Control** (Exoskeletons and Manipulators)
 * **Biomechanics** (Risk Assessment and Motion Analysis)
 
-I am passionate about bridging the gap between classical control theory and modern AI to create intelligent, autonomous systems capable of operating in complex environments.
+I am passionate about Robotics and AI to create intelligent, autonomous systems capable of operating in complex environments.
