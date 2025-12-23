@@ -2,96 +2,72 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Mohammad Madadi
+    - name: Email
+      value: mohammadmadadi2001@gmail.com
+    - name: Website
+      value: <a href="https://moemadadi.github.io">moemadadi.github.io</a>
     - name: Languages
-      value: English, German
+      value: English (TOEFL 108), Persian (Native)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: B.Sc. in Mechanical Engineering
+      institution: Sharif University of Technology, Tehran, Iran
+      year: 2019 - 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - GPA 17.66/20 (3.77/4.0)
+        - "Note: Excluding 9th semester (medical leave), GPA is 18.13/20 (3.88/4.0)."
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant
+      institution: Agentic Intelligence Lab, University of Hong Kong (HKU)
+      year: Sep 2025 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - "Supervisor: Prof. Jiayu Chen"
+        - "Focus: Continual Reinforcement Learning for Humanoid Robotic Control."
+
+    - title: Research Assistant
+      institution: Dept. of Mechanical Engineering, Sharif University of Technology
+      year: Jul 2024 - Dec 2024
       description:
-        - Description 1.
-        - Description 2.
+        - "Supervisor: Prof. Mohammad Taghi Ahmadian"
+        - "Focus: Deep Reinforcement Learning in Motion Planning for Robotic Arm Assistive Systems."
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Research Assistant
+      institution: Mechatronics Lab, Sharif University of Technology
+      year: Sep 2023 - Jul 2024
       description:
+        - "Supervisor: Prof. Gholamreza Vosoughi"
+        - "Focus: Developing 'Sharif Exoskeleton' for paralyzed patients."
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Research Assistant
+      institution: Spine Biomechanics Lab, Sharif University of Technology
+      year: Sep 2022 - Jul 2023
+      description:
+        - "Supervisor: Prof. Navid Arjmand"
+        - "Thesis: Risk assessment of workers performing seated tasks using ergonomic tools."
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Research Assistant
+      institution: Research Center of Intelligent Neuro-Rehabilitation
+      year: Sep 2022 - Feb 2023
+      description:
+        - "Supervisor: Prof. Navid Arjmand"
+        - "Focus: Collected In-Vivo body movement data for motion and force analysis."
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2019
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+        - Ranked 9th in the National University Entrance Exam (Konkur) among 164,000 participants.
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Skills
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <strong>Programming:</strong> Python, C, MATLAB/Simulink, Arduino
+    - <strong>Frameworks:</strong> PyTorch
+    - <strong>Engineering Software:</strong> Ansys Fluent, SOLIDWORKS, 3dsspp, Jack, Vicon Nexus, AnyBody
