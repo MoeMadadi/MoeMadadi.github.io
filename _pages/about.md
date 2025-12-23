@@ -27,8 +27,15 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Research Assistant at the [Agentic Intelligence Lab](https://agentic-intelligence-lab.org/) at the University of Hong Kong (HKU), supervised by [Prof. Jiayu Chen](https://agentic-intelligence-lab.org/members/jiayu-chen.html). My current research focuses on **Embodied AI** and **Continual Reinforcement Learning** for Humanoid Robotic Control.
 
+Prior to joining HKU, I obtained my B.Sc. in Mechanical Engineering from **Sharif University of Technology** in Tehran, Iran, where I graduated with a high distinction (GPA: 17.66/20). During my undergraduate studies, I worked as a Research Assistant in the Mechatronics Lab and the Spine Biomechanics Lab, gaining extensive experience in:
+
+* **Deep Reinforcement Learning** (Motion Planning for Robotic Systems)
+* **Robotics & Control** (Exoskeletons and Manipulators)
+* **Biomechanics** (Risk Assessment and Motion Analysis)
+
+I am passionate about bridging the gap between classical control theory and modern AI to create intelligent, autonomous systems capable of operating in complex environments.
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
