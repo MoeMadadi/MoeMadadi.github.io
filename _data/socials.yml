@@ -1,11 +1,9 @@
-- name: Email
-  url: mailto:mohammadmadadi2001@gmail.com
-  icon: fa-solid fa-envelope
+# Social media links
+email: mohammadmadadi2001@gmail.com
+github_username: MoeMadadi
+linkedin_username: MoeMadadi
+cv_pdf: assets/pdf/cv.pdf
 
-- name: GitHub
-  url: https://github.com/MoeMadadi
-  icon: fa-brands fa-github
-
-- name: LinkedIn
-  url: https://linkedin.com/in/MoeMadadi
-  icon: fa-brands fa-linkedin
+# Remove or comment out these if you don't use them:
+# scholar_userid: YOUR_GOOGLE_SCHOLAR_ID
+# twitter_username: YOUR_TWITTER_HANDLE
