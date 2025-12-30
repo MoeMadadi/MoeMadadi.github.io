@@ -17,7 +17,7 @@
       institution: Sharif University of Technology, Tehran, Iran
       year: 2019 - 2024
       description:
-        - GPA 17.66/20 (3.77/4.0)
+        - "GPA: 17.66/20 (3.77/4.0)"
         - "Note: Excluding 9th semester (medical leave), GPA is 18.13/20 (3.88/4.0)."
 
 - title: Research Experience
@@ -68,6 +68,6 @@
 - title: Skills
   type: list
   contents:
-    - <>Programming:</strong> Python, C, MATLAB/Simulink, Arduino
-    - <>Frameworks:</strong> PyTorch
-    - <>Engineering Software:</strong> Ansys Fluent, SOLIDWORKS, 3dsspp, Jack, Vicon Nexus, AnyBody
+    - <strong>Programming:</strong> Python, C, MATLAB/Simulink, Arduino
+    - <strong>Frameworks:</strong> PyTorch
+    - <strong>Engineering Software:</strong> Ansys Fluent, SOLIDWORKS, 3dsspp, Jack, Vicon Nexus, AnyBody
