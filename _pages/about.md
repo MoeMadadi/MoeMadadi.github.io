@@ -9,12 +9,12 @@ profile:
   image: Profgit.PNG
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p></p>
+    <p><a href="mailto:mohammadmadadi2001@gmail.com">mohammadmadadi2001@gmail.com</a></p>
     <p></p>
     <p></p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: false # includes a list of news items
