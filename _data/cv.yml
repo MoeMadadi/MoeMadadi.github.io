@@ -68,6 +68,6 @@
 - title: Skills
   type: list
   contents:
-    - <strong>Programming:</strong> Python, C, MATLAB/Simulink, Arduino
-    - <strong>Frameworks:</strong> PyTorch
-    - <strong>Engineering Software:</strong> Ansys Fluent, SOLIDWORKS, 3dsspp, Jack, Vicon Nexus, AnyBody
+    - <>Programming:</strong> Python, C, MATLAB/Simulink, Arduino
+    - <>Frameworks:</strong> PyTorch
+    - <>Engineering Software:</strong> Ansys Fluent, SOLIDWORKS, 3dsspp, Jack, Vicon Nexus, AnyBody
