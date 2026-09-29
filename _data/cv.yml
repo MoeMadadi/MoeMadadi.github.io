@@ -4,73 +4,118 @@
     - name: Full Name
       value: Mohammad Madadi
     - name: Email
-      value: mohammadmadadi2001@gmail.com
+      value: <a href="mailto:mohammadmadadi2001@gmail.com">mohammadmadadi2001@gmail.com</a>
     - name: Website
       value: <a href="https://moemadadi.github.io">moemadadi.github.io</a>
+    - name: GitHub
+      value: <a href="https://github.com/MoeMadadi">github.com/MoeMadadi</a>
+    - name: LinkedIn
+      value: <a href="https://www.linkedin.com/in/MoeMadadi">linkedin.com/in/MoeMadadi</a>
     - name: Languages
-      value: English (TOEFL 108), Persian (Native)
+      value: Persian (native), English (TOEFL iBT 108/120)
+
+- title: Research Interests
+  type: list
+  contents:
+    - Robotics and autonomous systems
+    - Embodied AI
+    - Continual learning and robot learning
+    - Reinforcement learning
+    - Motion planning
 
 - title: Education
   type: time_table
   contents:
     - title: B.Sc. in Mechanical Engineering
       institution: Sharif University of Technology, Tehran, Iran
-      year: 2019 - 2024
+      year: 2019–2024
       description:
-        - "GPA: 17.66/20 (3.77/4.0)"
-        - "Note: Excluding 9th semester (medical leave), GPA is 18.13/20 (3.88/4.0)."
+        - "GPA: 17.66/20. First Class Honours."
+        - "Ranked 9th in the Robotics and Control division and 24th overall among 147 Mechanical Engineering students."
 
 - title: Research Experience
   type: time_table
   contents:
-    - title: Research Assistant
-      institution: Agentic Intelligence Lab, University of Hong Kong (HKU)
-      year: Sep 2025 - Present
+    - title: Research Assistant (Remote)
+      institution: Agentic Intelligence Lab, University of Hong Kong
+      year: 2025–Present
       description:
-        - "Supervisor: Prof. Jiayu Chen"
-        - "Focus: Continual Reinforcement Learning for Humanoid Robotic Control."
+        - "Advisor: Prof. Jiayu Chen."
+        - "Task-free online continual learning: developed Streaming Subspace Routing (SSR), which uses frozen, unprompted ViT-B/16 feature geometry to route inputs among low-rank LoRA experts without task identity or class-based routing at inference."
+        - "Designed streaming subspace updates and soft expert composition from residual distances. Rank-8 LoRA experts adapt attention query and value projections while the backbone stays frozen."
+        - "Evaluated CIFAR-100, Tiny-ImageNet, and ImageNet-R under the Si-Blurry protocol with replay budgets of 0, 500, and 2,000 samples. Multi-seed results are reported as Aauc, Alast, and Flast."
+        - "Built a preceding shared-prompt method with slow-learning LoRA adapters and EMA-based logit distillation. At 500- and 2,000-sample replay it improved over SinglePrompt on all three datasets. ImageNet-R gains reached +6.62 Aauc and +7.19 Alast."
+        - "Continual robot learning: preliminary work on BEHAVIOR-1K household manipulation in OmniGibson and Isaac Sim, including task-stream design and demonstration-based learning."
+        - "Continual diffusion policies: sequential adaptation across Lift, Can, and Square in Robomimic, focusing on specialization, forward transfer, and distillation between stages."
 
     - title: Research Assistant
-      institution: Dept. of Mechanical Engineering, Sharif University of Technology
-      year: Jul 2024 - Dec 2024
+      institution: Department of Mechanical Engineering, Sharif University of Technology
+      year: 2024
       description:
-        - "Supervisor: Prof. Mohammad Taghi Ahmadian"
-        - "Focus: Deep Reinforcement Learning in Motion Planning for Robotic Arm Assistive Systems."
+        - "Advisor: Prof. Mohammad Taghi Ahmadian. July 2024 – December 2024."
+        - "Implemented, trained, and compared PPO, TD3, and SAC for Franka Panda assistive-arm motion planning in simulation."
+        - "Tuned hyperparameters with Optuna, compared convergence under manual and optimized settings, and contributed to the ISME 2025 manuscript."
 
     - title: Research Assistant
-      institution: Mechatronics Lab, Sharif University of Technology
-      year: Sep 2023 - Jul 2024
+      institution: Spine Biomechanics Laboratory, Sharif University of Technology
+      year: 2022–2023
       description:
-        - "Supervisor: Prof. Gholamreza Vosoughi"
-        - "Focus: Developing 'Sharif Exoskeleton' for paralyzed patients."
+        - "Advisor: Prof. Navid Arjmand. September 2022 – July 2023. B.Sc. thesis."
+        - "Collected workplace posture data, built biomechanical models in 3DSSPP and AnyBody, and quantified ergonomic and spinal-injury risk."
+        - "Designed and evaluated a workstation-tilter intervention that reduced model-estimated ergonomic risk by more than 50% and lowered estimated L4–L5 compression force."
 
     - title: Research Assistant
-      institution: Spine Biomechanics Lab, Sharif University of Technology
-      year: Sep 2022 - Jul 2023
+      institution: Research Center of Intelligent Neuro-Rehabilitation, Tehran
+      year: 2022–2023
       description:
-        - "Supervisor: Prof. Navid Arjmand"
-        - "Thesis: Risk assessment of workers performing seated tasks using ergonomic tools."
+        - "Advisor: Prof. Navid Arjmand. September 2022 – February 2023."
+        - "Collected in vivo kinematic and force data for gait and manual material handling with laboratory motion-analysis and force-measurement equipment."
 
-    - title: Research Assistant
-      institution: Research Center of Intelligent Neuro-Rehabilitation
-      year: Sep 2022 - Feb 2023
+- title: Publications
+  type: list
+  contents:
+    - "<strong>Sun, C., Madadi, M., Yuan, M., and Chen, J.</strong> “Streaming Subspace Routing for Task-Free Online Continual Learning.” Manuscript in preparation."
+    - "<strong>Naeimi Tabiei, P., Haji Zargarbashi, M., Madadi, M., and Ahmadian, M. T.</strong> “The Role of Deep Reinforcement Learning in Motion Planning for Robotic Arm Assistive Systems.” <em>33rd Annual International Conference of the Iranian Society of Mechanical Engineers</em>, Tehran, 2025. <a href=\"https://en.civilica.com/doc/2463147/\">Civilica: ISME33_085</a>."
+
+- title: Selected Projects
+  type: time_table
+  contents:
+    - title: Control and Trajectory Planning for a 3-DOF Robot
       description:
-        - "Supervisor: Prof. Navid Arjmand"
-        - "Focus: Collected In-Vivo body movement data for motion and force analysis."
+        - "Designed manipulator-control and path-planning schemes for simulated trajectory tracking."
+    - title: Human Action Recognition
+      description:
+        - "Built an Arduino/IMU sensing pipeline, prepared motion data, and trained a neural network in Python for action classification."
+    - title: Four-Sphere Microswimmer Dynamics
+      description:
+        - "Derived the equations of motion for a four-sphere microswimmer in two dimensions and studied its dynamic behavior."
+    - title: Maze Solving with Markov Decision Processes
+      description:
+        - "Formulated maze navigation as an MDP and implemented reinforcement-learning algorithms for policy learning and path selection."
+        - "<a href=\"https://github.com/MoeMadadi/Maze-Solver-using-Markov-Decision-Processes\">GitHub repository</a>"
+
+- title: Teaching
+  type: list
+  contents:
+    - "<strong>Teaching Assistant, Machine Dynamics</strong> — Prof. Saeed Behzadipour, Sharif University of Technology."
+    - "<strong>Teaching Assistant, Mechanical Engineering Graphics</strong> — Prof. Hamid Haghshenas, Sharif University of Technology."
 
 - title: Honors and Awards
   type: time_table
   contents:
-      - year: 2024
-        items:
-          - "First Class Honours, B.Sc. in Mechanical Engineering, Sharif University of Technology"
-      - year: 2019
-        items:
-          - Ranked 9th in the National University Entrance Exam (Konkur)
+    - year: 2024
+      items:
+        - "First Class Honours, B.Sc. in Mechanical Engineering, Sharif University of Technology."
+    - year: 2019
+      items:
+        - "Ranked 9th among approximately 164,000 participants in Iran’s National University Entrance Examination."
 
-- title: Skills
+- title: Technical Skills
   type: list
   contents:
-    - <strong>Programming:</strong> Python, C, MATLAB/Simulink, Arduino
-    - <strong>Frameworks:</strong> PyTorch
-    - <strong>Engineering Software:</strong> Ansys Fluent, SOLIDWORKS, 3dsspp, Jack, Vicon Nexus, AnyBody
+    - "<strong>Programming:</strong> Python, C, MATLAB/Simulink, Arduino"
+    - "<strong>Machine learning:</strong> PyTorch, continual learning, reinforcement learning, LoRA, knowledge distillation"
+    - "<strong>Robotics and simulation:</strong> Isaac Sim, OmniGibson, Robomimic"
+    - "<strong>Experimentation:</strong> multi-seed evaluation, ablation studies, hyperparameter optimization, Optuna"
+    - "<strong>Development tools:</strong> Git, Linux, LaTeX"
+    - "<strong>Engineering:</strong> ANSYS Fluent, SOLIDWORKS, 3DSSPP, Jack, Vicon Nexus, AnyBody"
