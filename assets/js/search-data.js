@@ -9,9 +9,30 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-cv",
+  },{id: "nav-publications",
+          title: "publications",
+          description: "Papers and manuscripts, newest first.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "Selected research and engineering projects.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-teaching",
+          title: "teaching",
+          description: "Teaching assistantships at Sharif University of Technology.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
+        },{id: "nav-cv",
           title: "cv",
-          description: "You can download a PDF copy of my CV here.",
+          description: "Education, research, teaching, and technical background. The PDF linked above is the current CV.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -395,51 +416,46 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-continual-robot-learning",
+          title: 'Continual Robot Learning',
+          description: "Household manipulation in BEHAVIOR-1K and diffusion policies in Robomimic.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/continual-robot-learning/";
+            },},{id: "projects-assistive-arm-motion-planning",
+          title: 'Assistive-Arm Motion Planning',
+          description: "PPO, TD3, and SAC for a simulated Franka Panda, with Prof. Mohammad Taghi Ahmadian.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/franka-motion-planning/";
+            },},{id: "projects-human-action-recognition",
+          title: 'Human Action Recognition',
+          description: "IMU sensing on Arduino and a neural classifier in Python.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/human-action-recognition/";
+            },},{id: "projects-maze-solving-with-mdps",
+          title: 'Maze Solving with MDPs',
+          description: "Maze navigation formulated as a Markov decision process.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/projects/maze-mdp/";
+            },},{id: "projects-four-sphere-microswimmer",
+          title: 'Four-Sphere Microswimmer',
+          description: "Planar dynamics of a four-sphere microswimmer.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+              window.location.href = "/projects/microswimmer/";
+            },},{id: "projects-3-dof-robot-control",
+          title: '3-DOF Robot Control',
+          description: "Manipulator control and path planning for simulated trajectory tracking.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+              window.location.href = "/projects/robot-3dof/";
+            },},{id: "projects-workplace-ergonomics",
+          title: 'Workplace Ergonomics',
+          description: "B.Sc. thesis on seated work, spinal loading, and a workstation-tilter intervention.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
+              window.location.href = "/projects/spine-biomechanics/";
+            },},{id: "projects-streaming-subspace-routing",
+          title: 'Streaming Subspace Routing',
+          description: "Task-free online continual learning with frozen ViT features and LoRA experts.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/ssr/";
             },},{
         id: 'social-email',
         title: 'email',
