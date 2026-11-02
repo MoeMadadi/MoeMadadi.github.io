@@ -418,7 +418,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-counterfactual-safety-learning",
           title: 'Counterfactual Safety Learning',
-          description: "Early-stage project.",
+          description: "Early-stage route-safety decisions from the robot&#39;s own images.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/counterfactual-safety/";
             },},{id: "projects-maze-solving-with-mdps",
