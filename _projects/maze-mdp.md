@@ -2,7 +2,7 @@
 layout: page
 title: Maze Solving with MDPs
 description: Maze navigation formulated as a Markov decision process.
-importance: 5
+importance: 3
 github: https://github.com/MoeMadadi/Maze-Solver-using-Markov-Decision-Processes
 ---
 

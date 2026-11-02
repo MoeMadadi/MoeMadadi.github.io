@@ -30,7 +30,7 @@
       institution: Sharif University of Technology, Tehran, Iran
       year: 2019–2024
       description:
-        - "GPA: 17.66/20. First Class Honours."
+        - "GPA: 17.66/20."
         - "Ranked 9th in the Robotics and Control division and 24th overall among 147 Mechanical Engineering students."
 
 - title: Research Experience
@@ -42,11 +42,11 @@
       description:
         - "Advisor: Prof. Jiayu Chen."
         - "Task-free online continual learning: developed Streaming Subspace Routing (SSR), which uses frozen, unprompted ViT-B/16 feature geometry to route inputs among low-rank LoRA experts without task identity or class-based routing at inference."
-        - "Designed streaming subspace updates and soft expert composition from residual distances. Rank-8 LoRA experts adapt attention query and value projections while the backbone stays frozen."
+        - "Designed streaming subspace updates and soft expert composition using residual distances. Rank-8 LoRA experts adapt attention query and value projections while the backbone stays frozen."
         - "Evaluated CIFAR-100, Tiny-ImageNet, and ImageNet-R under the Si-Blurry protocol with replay budgets of 0, 500, and 2,000 samples. Multi-seed results are reported as Aauc, Alast, and Flast."
-        - "Built a preceding shared-prompt method with slow-learning LoRA adapters and EMA-based logit distillation. At 500- and 2,000-sample replay it improved over SinglePrompt on all three datasets. ImageNet-R gains reached +6.62 Aauc and +7.19 Alast."
-        - "Continual robot learning: preliminary work on BEHAVIOR-1K household manipulation in OmniGibson and Isaac Sim, including task-stream design and demonstration-based learning."
-        - "Continual diffusion policies: sequential adaptation across Lift, Can, and Square in Robomimic, focusing on specialization, forward transfer, and distillation between stages."
+        - "Built a preceding shared-prompt method with slow-learning LoRA adapters and EMA-based logit distillation. Across 500- and 2,000-sample replay settings, it improved over SinglePrompt on all three datasets. ImageNet-R gains reached +6.62 Aauc and +7.19 Alast."
+        - "Continual robot learning: preliminary research on BEHAVIOR-1K household-manipulation tasks using OmniGibson and Isaac Sim, including task-stream design and demonstration-based learning considerations."
+        - "Continual diffusion policies: sequential adaptation across Lift, Can, and Square in Robomimic, focusing on specialization, forward transfer, and knowledge distillation between task stages."
 
     - title: Research Assistant
       institution: Department of Mechanical Engineering, Sharif University of Technology
@@ -54,14 +54,14 @@
       description:
         - "Advisor: Prof. Mohammad Taghi Ahmadian. July 2024 – December 2024."
         - "Implemented, trained, and compared PPO, TD3, and SAC for Franka Panda assistive-arm motion planning in simulation."
-        - "Tuned hyperparameters with Optuna, compared convergence under manual and optimized settings, and contributed to the ISME 2025 manuscript."
+        - "Performed Optuna hyperparameter tuning, compared convergence under manual and optimized settings, analyzed results, prepared figures, and contributed to the conference manuscript."
 
     - title: Research Assistant
       institution: Spine Biomechanics Laboratory, Sharif University of Technology
       year: 2022–2023
       description:
         - "Advisor: Prof. Navid Arjmand. September 2022 – July 2023. B.Sc. thesis."
-        - "Collected workplace posture data, built biomechanical models in 3DSSPP and AnyBody, and quantified ergonomic and spinal-injury risk."
+        - "Independently collected workplace posture data, developed biomechanical models in 3DSSPP and AnyBody, and quantified ergonomic and spinal-injury risks."
         - "Designed and evaluated a workstation-tilter intervention that reduced model-estimated ergonomic risk by more than 50% and lowered estimated L4–L5 compression force."
 
     - title: Research Assistant
@@ -69,35 +69,37 @@
       year: 2022–2023
       description:
         - "Advisor: Prof. Navid Arjmand. September 2022 – February 2023."
-        - "Collected in vivo kinematic and force data for gait and manual material handling with laboratory motion-analysis and force-measurement equipment."
+        - "Collected in vivo kinematic and force data for gait and manual material handling studies using laboratory motion-analysis and force-measurement equipment."
 
 - title: Publications
   type: list
   contents:
-    - "<strong>Sun, C., Madadi, M., Yuan, M., and Chen, J.</strong> “Streaming Subspace Routing for Task-Free Online Continual Learning.” Manuscript in preparation."
+    - "<strong>Madadi, M.</strong> “Learning directional locomotion under actuator rate loss in a triangular microswimmer.” Manuscript in preparation for Robotics and Autonomous Systems."
     - "<strong>Naeimi Tabiei, P., Haji Zargarbashi, M., Madadi, M., and Ahmadian, M. T.</strong> “The Role of Deep Reinforcement Learning in Motion Planning for Robotic Arm Assistive Systems.” <em>33rd Annual International Conference of the Iranian Society of Mechanical Engineers</em>, Tehran, 2025. <a href=\"https://en.civilica.com/doc/2463147/\">Civilica: ISME33_085</a>."
 
 - title: Selected Projects
   type: time_table
   contents:
-    - title: Control and Trajectory Planning for a 3-DOF Robot
+    - title: Triangular microswimmer
       description:
-        - "Designed manipulator-control and path-planning schemes for simulated trajectory tracking."
-    - title: Human Action Recognition
+        - "Learning directional locomotion under actuator rate loss. Manuscript in preparation for Robotics and Autonomous Systems."
+        - "<a href=\"https://github.com/MoeMadadi/triangular-microswimmer-rl\">GitHub repository</a>"
+    - title: Counterfactual safety learning
       description:
-        - "Built an Arduino/IMU sensing pipeline, prepared motion data, and trained a neural network in Python for action classification."
-    - title: Four-Sphere Microswimmer Dynamics
-      description:
-        - "Derived the equations of motion for a four-sphere microswimmer in two dimensions and studied its dynamic behavior."
-    - title: Maze Solving with Markov Decision Processes
+        - "Early-stage project."
+    - title: Maze solving with Markov decision processes
       description:
         - "Formulated maze navigation as an MDP and implemented reinforcement-learning algorithms for policy learning and path selection."
         - "<a href=\"https://github.com/MoeMadadi/Maze-Solver-using-Markov-Decision-Processes\">GitHub repository</a>"
+    - title: Snakefield
+      description:
+        - "A Snake game with Minesweeper-style mechanics, written in C with raylib."
+        - "<a href=\"https://github.com/MoeMadadi/Snakefield\">GitHub repository</a>"
 
 - title: Teaching
   type: list
   contents:
-    - "<strong>Teaching Assistant, Machine Dynamics</strong> — Prof. Saeed Behzadipour, Sharif University of Technology."
+    - "<strong>Teaching Assistant, Machine Dynamics</strong> — Prof. Saeed Behzadipor, Sharif University of Technology."
     - "<strong>Teaching Assistant, Mechanical Engineering Graphics</strong> — Prof. Hamid Haghshenas, Sharif University of Technology."
 
 - title: Honors and Awards
