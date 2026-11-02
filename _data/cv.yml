@@ -86,7 +86,17 @@
         - "<a href=\"https://github.com/MoeMadadi/triangular-microswimmer-rl\">GitHub repository</a>"
     - title: Counterfactual safety learning
       description:
-        - "Early-stage project."
+        - "Early-stage work on route safety. The robot must proceed, reject the route, or inspect further, using only its own camera images rather than an occupancy map."
+        - "Matched clear and blocked scenes can share the same visual history. A counterfactual check swaps the view that resolves the ambiguity; after the swap, that view should no longer reveal which scene is which."
+    - title: Control and Trajectory Planning for a 3-DOF Robot
+      description:
+        - "Designed manipulator-control and path-planning schemes for simulated trajectory tracking."
+    - title: Human Action Recognition
+      description:
+        - "Built an Arduino/IMU sensing pipeline, prepared motion data, and trained a neural network in Python for action classification."
+    - title: Four-Sphere Microswimmer Dynamics
+      description:
+        - "Derived the equations of motion for a four-sphere microswimmer in two dimensions and studied its dynamic behavior."
     - title: Maze solving with Markov decision processes
       description:
         - "Formulated maze navigation as an MDP and implemented reinforcement-learning algorithms for policy learning and path selection."
