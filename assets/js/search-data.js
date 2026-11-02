@@ -416,46 +416,26 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-continual-robot-learning",
-          title: 'Continual Robot Learning',
-          description: "Household manipulation in BEHAVIOR-1K and diffusion policies in Robomimic.",
+          section: "News",},{id: "projects-counterfactual-safety-learning",
+          title: 'Counterfactual Safety Learning',
+          description: "Early-stage project.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/continual-robot-learning/";
-            },},{id: "projects-assistive-arm-motion-planning",
-          title: 'Assistive-Arm Motion Planning',
-          description: "PPO, TD3, and SAC for a simulated Franka Panda, with Prof. Mohammad Taghi Ahmadian.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/franka-motion-planning/";
-            },},{id: "projects-human-action-recognition",
-          title: 'Human Action Recognition',
-          description: "IMU sensing on Arduino and a neural classifier in Python.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/human-action-recognition/";
+              window.location.href = "/projects/counterfactual-safety/";
             },},{id: "projects-maze-solving-with-mdps",
           title: 'Maze Solving with MDPs',
           description: "Maze navigation formulated as a Markov decision process.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/maze-mdp/";
-            },},{id: "projects-four-sphere-microswimmer",
-          title: 'Four-Sphere Microswimmer',
-          description: "Planar dynamics of a four-sphere microswimmer.",
+            },},{id: "projects-snakefield",
+          title: 'Snakefield',
+          description: "A Snake game with Minesweeper-style mechanics, written in C with raylib.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/microswimmer/";
-            },},{id: "projects-3-dof-robot-control",
-          title: '3-DOF Robot Control',
-          description: "Manipulator control and path planning for simulated trajectory tracking.",
+              window.location.href = "/projects/snakefield/";
+            },},{id: "projects-triangular-microswimmer",
+          title: 'Triangular Microswimmer',
+          description: "Learned directional locomotion under actuator rate loss.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/robot-3dof/";
-            },},{id: "projects-workplace-ergonomics",
-          title: 'Workplace Ergonomics',
-          description: "B.Sc. thesis on seated work, spinal loading, and a workstation-tilter intervention.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/spine-biomechanics/";
-            },},{id: "projects-streaming-subspace-routing",
-          title: 'Streaming Subspace Routing',
-          description: "Task-free online continual learning with frozen ViT features and LoRA experts.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/ssr/";
+              window.location.href = "/projects/triangular-microswimmer/";
             },},{
         id: 'social-email',
         title: 'email',
